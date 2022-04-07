@@ -67,7 +67,7 @@ def responder(mensagem):
     '''
     bot.send_message(mensagem.chat.id, texto)
 
-# loop de leitura das conversas, interacao com o bot
+
 bot.polling()
 
-# rodar em servidor(hiroko)ou no replit
+
